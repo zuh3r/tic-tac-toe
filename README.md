@@ -1,6 +1,6 @@
 # Tic Tac Toe
 
-# Approach to problem (planning)
+## Approach to problem (planning)
 
 
 ## Cool tech used
