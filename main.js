@@ -65,6 +65,14 @@ function eventListener() {
     });
 }
 
+
+
+function removeListener() {
+    [g1, g2, g3, g4, g5, g6, g7, g8, g9].forEach((gridBlocks)=>{
+        gridBlocks.removeEventListener('click', playerIcon, {once: true})
+    });
+}
+
 gameStart()
 function gameStart() {
     startScreen.style.display = "";
@@ -145,6 +153,7 @@ function playerIcon(event){
         if (playerOneWin === true && Number(playerOneScore.textContent) < 2) {
             playerOneScore.textContent = Number(playerOneScore.textContent) + Number(1);
             fatalityPopup.style.display = "";
+            removeListener();
             setTimeout(function () {
                 resetBoard();
                 }, 2000); 
