@@ -5,16 +5,15 @@
 
 @font-face {
     font-family: 'mkda';
-    src: url(../project1/ASSETS/mkmyth.ttf);
+    src: url(./ASSETS/mkmyth.ttf);
 }
 
 body {
     margin: 0;
     background: url(./ASSETS/Mortal\ Kombat\ Scene.png);
+    background-color: rgb(85, 63, 55);
     font-family: 'mkda';
     min-height: 100%;
-    min-width: 100%;;
-    background-position: inherit;
     background-repeat: no-repeat;
     background-size: cover;
     color: rgb(196, 69, 0);
@@ -51,7 +50,7 @@ header {
 .grid div{
     height: 126px;
     width: 126px;
-    background-color: rgb(128, 128, 128, 0.5);
+    background-color: rgb(128, 128, 128, 0.2);
     border: 3px solid rgb(160, 61, 0);
 }
 
@@ -115,7 +114,7 @@ header {
 footer {
     display: flex;
     justify-content: center;
-    margin: 60px 0 10px;
+    margin: 100px 0 10px;
 }
 
 footer strong {
@@ -128,7 +127,7 @@ footer strong {
 
 #start {
     display: grid;
-    grid-template-columns: 5fr 3fr 5fr;
+    grid-template-columns: 5fr 2fr 5fr;
     justify-content: space-evenly;
     margin-bottom: auto;
     grid-gap: 50px;
@@ -147,7 +146,7 @@ footer strong {
 
 .playerOneStart, .playerTwoStart {
     border: 2px solid rgb(160, 61, 0);
-    background-color: rgb(128, 128, 128, 0.8);
+    background-color: rgb(128, 128, 128, 0.5);
     border-radius: 25px;
 }
 
@@ -162,7 +161,7 @@ footer strong {
 #start-btn {
     margin-top: 50px;
     width: 100%;
-    max-width: 300px;
+    max-width: 400px;
     height: 60px;
     font-size: x-large; 
     background-color: rgb(160, 61, 0);
