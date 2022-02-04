@@ -29,3 +29,4 @@
 - A character animation when winning best of 5.
 - Option to change from best of 5 to best of 3/7/10.
 - Option increase grid size from 3x3 to 4x4, 5x5.
+- Adjustable screen size for mobile display.
