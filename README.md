@@ -22,7 +22,7 @@ If a condition is if (event.target.innerHTML=== '') and the result is event.targ
 
 ## Future Features to add
 
-Add more characters and allow players to select a character.
-Add a single player option where player v computer.
-'Fatality' audio when a winner is declared.
+- Add more characters and allow players to select a character.
+- Add a single player option where player v computer.
+- 'Fatality' audio when a winner is declared.
 A character animation when winning best of 5.
