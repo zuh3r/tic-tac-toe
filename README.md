@@ -1,6 +1,7 @@
 # Tic Tac Toe
 
 Mortal Kombat theme on the classic TicTacToe game
+game: https://zuh3r.github.io/tic-tac-toe/
 
 ## Approach to problem (planning)
 
