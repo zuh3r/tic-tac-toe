@@ -19,6 +19,7 @@
 
 - Event listeners will listen for an event ALWAYS even if you don't want them to. I learnt to use remove event listener and the {once: true} parameter.
 - If a condition is if (event.target.innerHTML=== '') and the result is event.target.innerHTML = 'newHTML', the condition will always run and place an HTML inside the HTML that was created.
+- I had listed my grids from gridOne to gridNine in HTML, but listed gridSix before gridFive. This caused me a headache when winning conditions were declaring winners in different conditions.
 
 ## Future Features to add
 
