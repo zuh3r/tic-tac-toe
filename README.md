@@ -11,9 +11,17 @@ Once I had laid out the steps, I began by creating my main game screen on HTML w
 ## Cool tech used
 
 'fight' function used which flashes "Fight" on the player whose turn it is. If player had two wins, this switched to a "Finish Him" message.
+using .style.display ='none' to hide the fatality popup image and allowing it to flash when condition (winning) was met.
+
 
 
 ## Lessons I've learnt
 
 
+
 ## Future Features to add
+
+Add more characters and allow players to select a character
+Add a single player option where player v computer
+'Fatality' audio when a winner is declared
+A character animation when winning best of 5
